@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Sejarah Sukuna</title>
+<style>
+body{
+  margin:0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(black, darkred);
+  color:white;
+}header{ text-align:center; padding:40px; font-size:30px; background: rgba(0,0,0,0.7); }
+
+.section{ padding:30px; max-width:800px; margin:auto; }
+
+.panel{ background: rgba(0,0,0,0.6); margin:20px 0; padding:20px; border-radius:10px; animation: fadeIn 2s; }
+
+img{ width:100%; border-radius:10px; }
+
+@keyframes fadeIn{ from{opacity:0; transform:translateY(20px);} to{opacity:1; transform:translateY(0);} }
+
+footer{ text-align:center; padding:20px; background:black; }
+
+button{ display:block; margin:30px auto; padding:15px 30px; background: linear-gradient(red, darkred); color:white; border:none; border-radius:15px; font-size:18px; box-shadow: 0 0 20px red; transition:0.3s; }
+
+button:hover{ transform: scale(1.1); box-shadow: 0 0 40px red, 0 0 80px crimson; }
+
+/* efek aura background */ body::after{ content:""; position:fixed; width:100%; height:100%; background: radial-gradient(circle, rgba(255,0,0,0.2), transparent 70%); animation: aura 5s infinite; z-index:-1; }
+
+@keyframes aura{ 0%{opacity:0.3; transform:scale(1);} 50%{opacity:0.6; transform:scale(1.2);} 100%{opacity:0.3; transform:scale(1);} } </style>
+
+</head><body><header>
+RYOMEN SUKUNA - RAJA KUTUKAN
+</header><div class="section"><div class="panel">
+<h2>Awal Legenda</h2>
+<img src="sukuna.jpg">
+<img src="sukuna2.jpg">
+<img src="sukuna3.jpg">
+<p>
+Pada zaman kuno, ketika manusia masih hidup berdampingan dengan kegelapan, lahirlah sosok yang ditakuti oleh semua makhluk.
+Namanya adalah Ryomen Sukuna.
+Ia bukan manusia biasa, melainkan makhluk dengan kekuatan yang melampaui batas logika.
+Tubuhnya memiliki dua wajah dan empat tangan, simbol kekuatan dan teror.Banyak yang mengatakan ia dulunya manusia, namun berubah menjadi kutukan karena kekuatan dan kebenciannya. Sejak saat itu, namanya dikenal sebagai Raja Kutukan.
+
+</p>
+</div><div class="panel">
+<h2>Kekuatan yang Tak Tertandingi</h2>
+<p>
+Sukuna memiliki energi kutukan yang luar biasa besar.
+Ia mampu menghancurkan desa, membantai penyihir, dan mengalahkan siapapun yang mencoba menantangnya.Tekniknya begitu mematikan, bahkan para penyihir terkuat pun tidak mampu menandinginya. Ia bukan hanya kuat, tetapi juga cerdas dan kejam.
+
+Dalam setiap pertarungan, Sukuna tidak hanya ingin menang, tetapi juga ingin menunjukkan dominasinya.
+
+</p>
+</div><div class="panel">
+<h2>Teror yang Menyebar</h2>
+<p>
+Ketakutan terhadap Sukuna menyebar ke seluruh penjuru dunia.
+Nama Sukuna menjadi legenda yang menakutkan.
+Orang-orang berdoa agar tidak pernah bertemu dengannya.Namun bagi Sukuna, semua itu hanyalah hiburan. Ia menikmati rasa takut yang ia ciptakan.
+
+Dunia berada di ambang kehancuran.
+
+</p>
+</div><div class="panel">
+<h2>Kejatuhan Sukuna</h2>
+<p>
+Akhirnya, para penyihir terkuat berkumpul untuk menghentikan Sukuna.
+Pertarungan besar pun terjadi.Meskipun sangat kuat, Sukuna akhirnya berhasil dikalahkan. Namun ia tidak benar-benar mati.
+
+Tubuhnya terpecah menjadi jari-jari terkutuk yang menyimpan kekuatannya. Siapapun yang memakan jari tersebut akan mendapatkan kekuatan Sukuna.
+
+</p>
+</div><div class="panel">
+<h2>Kebangkitan Kembali</h2>
+<p>
+Ratusan tahun kemudian, Sukuna kembali muncul.
+Melalui tubuh manusia, kekuatannya perlahan bangkit kembali.Dunia kembali berada dalam bahaya.
+
+Apakah Sukuna akan bangkit sepenuhnya? Atau akan ada yang mampu menghentikannya?
+
+Cerita ini belum berakhir...
+
+</p>
+</div></div><footer>
+© Rapchw - Website Sukuna
+</footer><!-- SOUND SUKUNA KEREN --><button onclick="playSound()">🔥 Aktifkan Kekuatan Sukuna</button>
+
+<audio id="musik">
+  <source src="sukuna.mp3" type="audio/mpeg">
+</audio><script>
+function playSound(){
+  let audio = document.getElementById('musik');
+  audio.play();
+
+  // efek getar layar
+  document.body.style.animation = 'shake 0.5s';
+  setTimeout(()=>{
+    document.body.style.animation = '';
+  },500);
+}
+</script><style>
+@keyframes shake{
+  0%{transform:translate(0,0);} 
+  25%{transform:translate(5px,-5px);} 
+  50%{transform:translate(-5px,5px);} 
+  75%{transform:translate(5px,5px);} 
+  100%{transform:translate(0,0);} 
+}
+</style></body>
+  </html>
